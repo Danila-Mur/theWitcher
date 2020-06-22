@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'MasonChronicles';
+    src: url('../fonts/MasonChronicles.woff') format('woff'),
+        url('../fonts/MasonChronicles.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #141218;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-bottom: 90px;
+}
+.navigation {
+    margin-right: auto;
+    margin-left: 68px;
+}
+.nav-link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 24px;
+}
+.social-link {
+    margin-left: 21px;
+    text-decoration: none;
+}
+.main-content {
+    display: flex;
+    align-items: center;
+}
+.genre {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.rating-number {
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 9px;
+}
+.main-title {
+    margin: 0;
+    font-size: 76px;
+    line-height: 89px;
+    font-family: 'MasonChronicles', serif;
+    margin-bottom: 10px;
+}
+.main-description {
+    margin: 0;
+    max-width: 458px;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+.button {
+    background: #9d2929;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    padding: 22px 72px;
+}
+.play {
+    background: #9d2929;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    margin: auto;
+}
+.play::before {
+    content: '';
+    width: 132px;
+    height: 132px;
+    background: #9d2929;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 50%;
+    top: -16px;
+    left: -16px;
+}
+.play-img {
+    position: relative;
+}
